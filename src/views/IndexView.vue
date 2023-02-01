@@ -7,12 +7,12 @@
         >
           <input
             type="text"
-            class="border-1 border-gray-500 px-2 py-1 w-full"
+            class="border mb-2 shadow-md rounded-md focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 border-slate-300 px-2 py-1 w-full"
             placeholder="Add todo item"
             v-model="todoItem"
           />
           <button
-            class="bg-blue-500 text-white px-2 py-1 rounded w-full mt-2"
+            class="bg-blue-500 text-white px-2 py-1 rounded-md w-full mt-2"
             @click="addTodoItem"
           >
             Add Todo Item
@@ -39,7 +39,7 @@
                 </span>
               </div>
               <button
-                class="bg-red-500 text-white px-2 py-1 rounded"
+                class="bg-red-500 text-white px-2 py-1 rounded-md"
                 @click="deleteTodoItem(item)"
               >
                 Delete
