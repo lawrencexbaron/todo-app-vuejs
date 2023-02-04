@@ -33,7 +33,7 @@
                 />
                 <span
                   :class="{ 'line-through': item.completed }"
-                  class="text-gray-500"
+                  class="text-gray-500 animate-pulse"
                 >
                   {{ item.title }}
                 </span>
